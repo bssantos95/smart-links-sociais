@@ -1,0 +1,86 @@
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+
+        h1 {
+            color: white;
+            font-family: 'Water Brush';
+            font-weight: normal;
+            font-size: 62px;
+            
+        }
+        body {
+            align-items: center;
+            background-image: url('imagens/backgroundstudio.png'); width: auto; height: auto;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 1080px 1920px;    
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            align-content: center;
+            column-gap: 30px;
+        }
+
+        main {
+            /*align-items: flex-start;*/
+            row-gap: 20px;
+        }
+        img{
+            height: 150px;
+            display: inline-block;
+
+        }
+        div{
+            background-image: linear-gradient(to right, rgba(255, 255, 255, 0.123), rgba(0, 0, 255, 0.068) );
+            width: 100px;
+            height: 50px;
+            position: relative;
+            overflow: hidden;
+            width:100%;
+            text-align: center;
+            border-radius: 20px;
+            box-shadow: 3px 2px 15px rgba(255, 255, 255, 0.397);
+            
+        }
+        div:hover{
+            background: rgba(202, 202, 202, 0.247);
+            transition: background 0.2s;
+        }
+            
+        P {
+            font-family: 'Ubuntu mono';
+            font-size: 20px;
+            color: white;
+            font-weight: bold;
+            display: inline-block;
+            user-select: none;
+            cursor: pointer;
+        } 
+        .bloco-1{
+            width: 450px;
+            align-items: center;
+        }
+        .bloco-2{
+            width: 450px;
+        }
+        .bloco-3{
+            width: 450px;
+        }
+        .bloco-4{
+            width: 450px;
+        }
+        .bloco-5{
+            width: 450px;
+        }
+        .sizeimg{
+            width: 100px;
+            height: 100px;
+            object-fit: fill;
+        }
+
+        
