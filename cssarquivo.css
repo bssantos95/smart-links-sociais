@@ -37,11 +37,11 @@
         }
         div{
             background-image: linear-gradient(to right, rgba(255, 255, 255, 0.123), rgba(0, 0, 255, 0.068) );
-            width: 100px;
+            width: 200px;
             height: 50px;
             position: relative;
             overflow: hidden;
-            width:100%;
+            /*width:100%;*/
             text-align: center;
             border-radius: 20px;
             box-shadow: 3px 2px 15px rgba(255, 255, 255, 0.397);
@@ -62,20 +62,23 @@
             cursor: pointer;
         } 
         .bloco-1{
-            width: 450px;
+            width: 350px;
             align-items: center;
         }
         .bloco-2{
-            width: 450px;
+            width: 350px;
         }
         .bloco-3{
-            width: 450px;
+            width: 350px;
         }
         .bloco-4{
-            width: 450px;
+            width: 350px;
         }
         .bloco-5{
-            width: 450px;
+            width: 350px;
+        }
+        .bloco-6{
+            width: 350px;
         }
         .sizeimg{
             width: 100px;
